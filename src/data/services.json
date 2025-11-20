@@ -1,0 +1,159 @@
+
+[
+  {
+    "slug": "creation-site",
+    "title": "Création de Site Web Sur-Mesure",
+    "description": "Un site web n'est pas une simple vitrine. C'est votre principal outil de croissance, de vente et de communication. Nous le concevons pour qu'il soit performant, mémorable et qu'il convertisse.",
+    "benefits": [
+      { "title": "Performance Maximale", "description": "Site ultra-rapide et optimisé pour le SEO dès la conception." },
+      { "title": "Design Unique", "description": "Un design qui reflète votre identité de marque et séduit vos visiteurs." },
+      { "title": "Centré Conversion", "description": "Expérience utilisateur (UX) conçue pour transformer les visiteurs en clients." },
+      { "title": "Autonomie Complète", "description": "Nous vous formons pour que vous puissiez gérer votre contenu en toute simplicité." }
+    ],
+    "method": [
+      { "step": "01", "title": "Stratégie & Conception", "description": "Définition de vos objectifs, de votre cible et création des maquettes UX/UI pour une fondation solide." },
+      { "step": "02", "title": "Développement & Intégration", "description": "Nos développeurs donnent vie aux maquettes avec un code propre, performant et sécurisé." },
+      { "step": "03", "title": "Contenu & SEO", "description": "Intégration et optimisation de vos contenus pour garantir une visibilité maximale dès le lancement." },
+      { "step": "04", "title": "Lancement & Formation", "description": "Après des tests rigoureux, nous mettons le site en ligne et nous vous formons à sa gestion." }
+    ],
+    "caseStudies": [
+      { "title": "Refonte E-commerce", "result": "+40% de conversion" },
+      { "title": "Site Vitrine pour Artisan", "result": "Première page Google en 3 mois" }
+    ],
+    "cta": {
+      "title": "Prêt à lancer un site qui génère des résultats ?",
+      "description": "Chaque projet est unique. Discutons du vôtre et voyons comment nous pouvons donner vie à votre vision.",
+      "buttonText": "Obtenir un devis gratuit"
+    }
+  },
+  {
+    "slug": "seo",
+    "title": "SEO & Croissance Organique",
+    "description": "Être premier sur Google n'est pas une vanité, c'est une stratégie. Nous transformons votre site en un aimant à clients qualifiés grâce à un SEO durable et efficace.",
+    "benefits": [
+      { "title": "Trafic Qualifié", "description": "Attirez des visiteurs réellement intéressés par vos produits ou services." },
+      { "title": "Visibilité Durable", "description": "Des résultats qui perdurent, contrairement à la publicité payante." },
+      { "title": "Autorité Renforcée", "description": "Devenez la référence incontournable dans votre secteur d'activité." },
+      { "title": "ROI Élevé", "description": "Le SEO est l'un des canaux d'acquisition les plus rentables sur le long terme." }
+    ],
+    "method": [
+      { "step": "01", "title": "Audit Technique & Stratégique", "description": "Analyse complète de votre site et de votre marché pour identifier les opportunités." },
+      { "step": "02", "title": "Stratégie de Contenu", "description": "Création de contenus qui répondent aux intentions de recherche de votre audience." },
+      { "step": "03", "title": "Optimisation On-Page", "description": "Optimisation de chaque page (structure, balises, maillage) pour maximiser leur pertinence." },
+      { "step": "04", "title": "Netlinking & Autorité", "description": "Développement d'un profil de liens de qualité pour renforcer l'autorité de votre domaine." }
+    ],
+    "caseStudies": [
+      { "title": "SEO Local pour PME", "result": "+150% d'appels entrants" },
+      { "title": "Stratégie de contenu B2B", "result": "De 0 à 10k visiteurs/mois" }
+    ],
+    "cta": {
+      "title": "Prêt à dominer les résultats de recherche ?",
+      "description": "Obtenez un audit SEO gratuit et découvrez le potentiel inexploité de votre site.",
+      "buttonText": "Demander mon audit SEO"
+    }
+  },
+  {
+    "slug": "automatisation",
+    "title": "Automatisation, IA & No-Code",
+    "description": "Votre ressource la plus précieuse est le temps. Nous le multiplions en automatisant vos tâches répétitives pour que vous puissiez vous concentrer sur la croissance.",
+    "benefits": [
+        { "title": "Gain de Temps Massif", "description": "Libérez vos équipes des tâches chronophages et répétitives." },
+        { "title": "Réduction des Erreurs", "description": "Diminuez les erreurs humaines et assurez une qualité constante." },
+        { "title": "Scalabilité Accrue", "description": "Des processus qui s'adaptent à votre croissance sans effort supplémentaire." },
+        { "title": "Expérience Client Améliorée", "description": "Offrez des réponses plus rapides et un suivi personnalisé 24/7." }
+    ],
+    "method": [
+        { "step": "01", "title": "Analyse des Processus", "description": "Nous cartographions vos flux de travail pour identifier les goulots d'étranglement et les opportunités d'automatisation." },
+        { "step": "02", "title": "Conception du Workflow", "description": "Nous concevons des scénarios d'automatisation sur-mesure en utilisant les meilleurs outils no-code et l'IA." },
+        { "step": "03", "title": "Implémentation & Intégration", "description": "Nous connectons vos applications (CRM, email, etc.) et mettons en place les automatisations." },
+        { "step": "04", "title": "Optimisation Continue", "description": "Nous surveillons les performances et ajustons les workflows pour une efficacité maximale." }
+    ],
+    "caseStudies": [
+      { "title": "Automatisation des ventes", "result": "Cycle de vente réduit de 30%" },
+      { "title": "Support client via IA", "result": "80% des tickets résolus automatiquement" }
+    ],
+    "cta": {
+      "title": "Prêt à mettre votre business sur pilote automatique ?",
+      "description": "Identifions ensemble les tâches qui freinent votre croissance et automatisons-les.",
+      "buttonText": "Audit d'automatisation gratuit"
+    }
+  },
+  {
+    "slug": "tunnels",
+    "title": "Tunnels de Vente & Conversion",
+    "description": "Ne laissez plus vos visiteurs se perdre. Nous construisons des parcours clients qui transforment l'intérêt en action, et l'action en revenu.",
+    "benefits": [
+        { "title": "Conversion Maximale", "description": "Chaque étape est optimisée pour guider le visiteur vers l'achat." },
+        { "title": "Qualification Automatique", "description": "Filtrez et qualifiez vos prospects sans intervention manuelle." },
+        { "title": "Augmentation de la LTV", "description": "Mise en place d'upsells, cross-sells et de suivis pour maximiser la valeur vie client." },
+        { "title": "ROI Prévisible", "description": "Créez une machine de vente scalable avec un retour sur investissement mesurable." }
+    ],
+    "method": [
+        { "step": "01", "title": "Cartographie du Parcours", "description": "Analyse de la psychologie de vos clients pour concevoir un tunnel qui leur parle." },
+        { "step": "02", "title": "Copywriting & Offre", "description": "Création de messages percutants et structuration d'une offre irrésistible." },
+        { "step": "03", "title": "Implémentation Technique", "description": "Construction du tunnel (landing pages, emails, paiements) avec les meilleurs outils." },
+        { "step": "04", "title": "Optimisation (CRO)", "description": "Analyse des données et A/B tests pour améliorer constamment les performances." }
+    ],
+    "caseStudies": [
+      { "title": "Lancement de formation", "result": "100k€ de ventes en 7 jours" },
+      { "title": "Génération de leads B2B", "result": "Coût par lead qualifié divisé par 3" }
+    ],
+    "cta": {
+      "title": "Prêt à transformer vos visiteurs en clients fidèles ?",
+      "description": "Discutons de votre processus de vente et construisons un tunnel qui travaille pour vous 24/7.",
+      "buttonText": "Planifier une session stratégique"
+    }
+  },
+  {
+    "slug": "strategie",
+    "title": "Stratégie & Positionnement",
+    "description": "Le succès n'est pas un accident. C'est le résultat d'une stratégie claire. Nous vous aidons à construire la vôtre pour une croissance durable et rentable.",
+    "benefits": [
+      { "title": "Vision Claire", "description": "Une roadmap actionnable pour savoir où vous allez et comment y arriver." },
+      { "title": "Positionnement Unique", "description": "Démarquez-vous de la concurrence et devenez le choix évident pour vos clients." },
+      { "title": "Offres Pertinentes", "description": "Des produits et services qui répondent parfaitement aux besoins du marché." },
+      { "title": "Allocation Optimale", "description": "Investissez vos ressources là où l'impact sera le plus fort." }
+    ],
+    "method": [
+      { "step": "01", "title": "Diagnostic 360°", "description": "Audit de votre business, marché et concurrence pour identifier les axes de croissance." },
+      { "step": "02", "title": "Définition du Positionnement", "description": "Nous définissons ensemble votre 'Brand DNA' : mission, vision, et proposition de valeur unique." },
+      { "step": "03", "title": "Design d'Offres", "description": "Structuration de vos offres pour maximiser la valeur perçue, la rentabilité et la scalabilité." },
+      { "step": "04", "title": "Roadmap de Croissance", "description": "Élaboration d'un plan d'action avec des objectifs clairs, des KPIs et des initiatives priorisées." }
+    ],
+    "caseStudies": [
+      { "title": "Pivot stratégique d'une startup", "result": "Croissance multipliée par 5 en un an" },
+      { "title": "Lancement de marque", "result": "Part de marché de 10% en 18 mois" }
+    ],
+    "cta": {
+      "title": "Prêt à construire les fondations de votre succès ?",
+      "description": "La meilleure stratégie est celle que l'on exécute. Commençons par définir la vôtre.",
+      "buttonText": "Planifier un workshop stratégique"
+    }
+  },
+  {
+    "slug": "contenu",
+    "title": "Contenu & Distribution",
+    "description": "Le contenu est le carburant de votre marketing. Nous créons le carburant premium et le système de distribution qui propulse votre marque vers de nouveaux sommets.",
+     "benefits": [
+        { "title": "Devenir une Autorité", "description": "Positionnez-vous comme l'expert de référence dans votre domaine." },
+        { "title": "Générer du Trafic", "description": "Attirez un flux constant de prospects qualifiés via le SEO et les réseaux sociaux." },
+        { "title": "Construire une Audience", "description": "Créez une communauté engagée et fidèle autour de votre marque." },
+        { "title": "Éduquer et Convertir", "description": "Alimentez vos tunnels de vente avec des prospects déjà convaincus par votre expertise." }
+    ],
+    "method": [
+        { "step": "01", "title": "Stratégie Éditoriale", "description": "Définition de vos piliers de contenu, formats et calendrier en fonction de vos objectifs." },
+        { "step": "02", "title": "Création Multi-formats", "description": "Articles de blog, vidéos courtes, carrousels, newsletters... Nous produisons le contenu adapté." },
+        { "step": "03", "title": "Optimisation SEO", "description": "Chaque contenu est optimisé pour maximiser sa durée de vie et sa visibilité sur le long terme." },
+        { "step": "04", "title": "Distribution Intelligente", "description": "Nous diffusons votre contenu sur les canaux pertinents pour maximiser sa portée et son impact." }
+    ],
+    "caseStudies": [
+      { "title": "Blog B2B", "result": "Trafic organique x10 en 12 mois" },
+      { "title": "Stratégie vidéo", "result": "+300% d'engagement sur les réseaux" }
+    ],
+    "cta": {
+      "title": "Prêt à devenir la référence de votre secteur ?",
+      "description": "Arrêtez de créer du contenu dans le vide. Construisons une machine à contenu qui génère des résultats.",
+      "buttonText": "Définir ma stratégie de contenu"
+    }
+  }
+]

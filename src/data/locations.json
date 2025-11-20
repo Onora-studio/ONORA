@@ -1,0 +1,127 @@
+
+[
+  {
+    "slug": "luxembourg",
+    "cityName": "Luxembourg",
+    "region": "Luxembourg",
+    "description": "Nous combinons expertise digitale de pointe et connaissance du tissu économique local pour propulser la croissance des PME à Luxembourg-Ville et ses environs.",
+    "offerings": [
+      { "title": "Stratégie Digitale Locale", "description": "Nous adaptons nos stratégies de croissance aux spécificités du marché luxembourgeois pour vous garantir un impact maximal." },
+      { "title": "Visibilité Locale (SEO)", "description": "Dominez les résultats de recherche locaux et attirez les clients qui vous cherchent activement près de chez vous." },
+      { "title": "Réseau & Partenariats", "description": "En tant qu'acteur local, nous vous connectons à notre réseau de partenaires pour créer des synergies." },
+      { "title": "Accompagnement de Proximité", "description": "Profitez de la réactivité et de la disponibilité d'une équipe qui comprend vos enjeux." }
+    ],
+    "faq": [
+      { "question": "Pourquoi choisir une agence locale à Luxembourg ?", "answer": "Travailler avec une agence locale comme ONORA à Luxembourg garantit une compréhension profonde de votre marché, une communication facile et un partenaire de croissance proche de vous." },
+      { "question": "Quels secteurs d'activité accompagnez-vous ?", "answer": "Nous accompagnons les PME de tous secteurs à Luxembourg et ses environs, de la finance aux services B2B, en passant par la tech et le e-commerce." },
+      { "question": "Comment démarre-t-on un projet ?", "answer": "Tout commence par un premier échange gratuit pour comprendre vos besoins. Nous vous proposons ensuite une stratégie personnalisée. Contactez-nous pour discuter de votre projet." }
+    ],
+    "cta": {
+      "title": "Parlons de votre projet à Luxembourg",
+      "description": "Rencontrons-nous pour discuter de vos ambitions de croissance. Le premier café est pour nous !",
+      "buttonText": "Prendre rendez-vous"
+    }
+  },
+  {
+    "slug": "esch",
+    "cityName": "Esch-sur-Alzette",
+    "region": "Luxembourg",
+    "description": "Au cœur du renouveau d'Esch-sur-Alzette, ONORA apporte son expertise digitale pour aider les entreprises locales à innover et à se développer.",
+    "offerings": [
+      { "title": "Digitalisation pour Commerçants", "description": "Solutions e-commerce et de visibilité en ligne pour les commerces de proximité à Esch." },
+      { "title": "Stratégie pour Startups", "description": "Accompagnement des jeunes pousses de l'incubateur Technoport et de l'écosystème d'Esch." },
+      { "title": "Marketing Industriel", "description": "Stratégies B2B adaptées au bassin industriel historique et en reconversion de la région." },
+      { "title": "SEO Hyperlocal", "description": "Ciblez précisément les habitants d'Esch et des communes avoisinantes." }
+    ],
+    "faq": [
+      { "question": "Êtes-vous présents physiquement à Esch ?", "answer": "Oui, notre équipe se déplace régulièrement à Esch-sur-Alzette pour rencontrer nos clients et partenaires. Nous sommes très attachés à la dynamique de la ville." },
+      { "question": "Avez-vous de l'expérience avec les entreprises de la Cité des Sciences ?", "answer": "Absolument. Nous avons accompagné plusieurs startups et entreprises innovantes de Belval dans leur stratégie de croissance digitale." }
+    ],
+    "cta": {
+      "title": "Prêt à innover à Esch-sur-Alzette ?",
+      "description": "Discutons de la manière dont le digital peut accélérer votre développement au cœur de la Minett.",
+      "buttonText": "Contacter notre équipe"
+    }
+  },
+  {
+    "slug": "kirchberg",
+    "cityName": "Kirchberg",
+    "region": "Luxembourg",
+    "description": "Dans le quartier d'affaires de Kirchberg, ONORA est le partenaire stratégique des entreprises qui visent l'excellence et la croissance internationale.",
+    "offerings": [
+      { "title": "Marketing pour Services Financiers", "description": "Stratégies de contenu et d'acquisition conformes aux régulations du secteur financier." },
+      { "title": "Génération de Leads B2B", "description": "Campagnes ciblées sur LinkedIn et autres canaux pour atteindre les décideurs du Kirchberg." },
+      { "title": "Stratégie de Marque Employeur", "description": "Attirez les meilleurs talents internationaux grâce à une présence digitale forte." },
+      { "title": "Automatisation Corporate", "description": "Optimisation des processus marketing et vente pour les grandes structures." }
+    ],
+    "faq": [
+      { "question": "Comment pouvez-vous nous aider à nous démarquer à Kirchberg ?", "answer": "En créant un positionnement de marque fort et une stratégie de contenu d'expert qui vous établit comme un leader d'opinion dans votre domaine, au-delà de la simple publicité." },
+      { "question": "Travaillez-vous avec les institutions européennes ?", "answer": "Nous accompagnons les entreprises qui collaborent avec les institutions européennes en développant des stratégies de communication et de lobbying digital." }
+    ],
+    "cta": {
+      "title": "Prêt à accélérer votre croissance à Kirchberg ?",
+      "description": "Dans un environnement ultra-compétitif, chaque détail compte. Parlons de votre stratégie.",
+      "buttonText": "Planifier un appel stratégique"
+    }
+  },
+  {
+    "slug": "metz",
+    "cityName": "Metz",
+    "region": "Grand Est, France",
+    "description": "ONORA déploie son savoir-faire en growth et IA pour les PME de Metz, créant un pont digital entre le Sillon Lorrain et les marchés européens.",
+    "offerings": [
+      { "title": "Stratégie Transfrontalière", "description": "Profitez de notre expertise du marché luxembourgeois pour développer votre activité au-delà de la frontière." },
+      { "title": "Marketing pour la Tech & l'Industrie", "description": "Accompagnement des entreprises de Metz Technopôle et du secteur industriel local." },
+      { "title": "E-commerce et Retail", "description": "Digitalisez votre commerce et attirez une clientèle plus large grâce à une stratégie en ligne performante." },
+      { "title": "SEO Local et Régional", "description": "Soyez visible à Metz, en Moselle et dans toute la région Grand Est." }
+    ],
+    "faq": [
+      { "question": "Pourquoi une agence avec une expertise luxembourgeoise est-elle un atout à Metz ?", "answer": "Notre double culture nous permet de créer des stratégies d'expansion uniques pour les entreprises messines souhaitant toucher le marché luxembourgeois, un bassin économique à fort pouvoir d'achat." }
+    ],
+    "cta": {
+      "title": "Votre ambition dépasse les frontières de Metz ?",
+      "description": "Discutons de la manière dont nous pouvons vous aider à conquérir de nouveaux marchés depuis Metz.",
+      "buttonText": "Explorer mes opportunités"
+    }
+  },
+  {
+    "slug": "nancy",
+    "cityName": "Nancy",
+    "region": "Grand Est, France",
+    "description": "Au cœur de la cité ducale, ONORA met l'innovation digitale au service des entreprises de Nancy pour stimuler leur croissance et leur rayonnement.",
+    "offerings": [
+      { "title": "Marketing pour la Santé et les Bio-Tech", "description": "Stratégies adaptées pour les acteurs du pôle de santé de Nancy-Brabois." },
+      { "title": "Digitalisation des Services", "description": "Accompagnement des professions libérales et des sociétés de conseil dans leur transformation digitale." },
+      { "title": "Stratégie de Contenu Éducatif", "description": "Mise en valeur de votre expertise pour attirer étudiants, chercheurs et partenaires du pôle universitaire." },
+      { "title": "E-réputation et Notoriété", "description": "Construisez une image de marque forte et reconnue à Nancy et au-delà." }
+    ],
+    "faq": [
+      { "question": "Notre activité est très traditionnelle. Le digital est-il vraiment pour nous ?", "answer": "Absolument. La digitalisation peut optimiser vos processus, vous ouvrir à de nouveaux clients et moderniser votre image. Nous créons des stratégies respectueuses de votre héritage tout en vous projetant dans l'avenir." }
+    ],
+    "cta": {
+      "title": "Prêt à faire rayonner votre entreprise à Nancy ?",
+      "description": "De la Place Stanislas au digital, faisons de votre entreprise un monument de succès.",
+      "buttonText": "Démarrer ma transformation"
+    }
+  },
+  {
+    "slug": "lille",
+    "cityName": "Lille",
+    "region": "Hauts-de-France, France",
+    "description": "Au carrefour de l'Europe, ONORA accompagne les entreprises lilloises ambitieuses dans leur stratégie de croissance digitale, de la French Tech à l'Euratechnologies.",
+    "offerings": [
+      { "title": "Stratégie E-commerce", "description": "Expertise pointue pour les acteurs du retail et de la vente à distance, ADN de la région lilloise." },
+      { "title": "Marketing pour Startups Tech", "description": "Accompagnement sur-mesure pour les pépites d'Euratechnologies, de la génération de leads à la scalabilité." },
+      { "title": "Growth Hacking B2B", "description": "Stratégies d'acquisition innovantes pour les entreprises de services visant les marchés français et bénéluxois." },
+      { "title": "Contenu Vidéo et Social Media", "description": "Créez des contenus engageants pour vous démarquer sur un marché dynamique et connecté." }
+    ],
+    "faq": [
+      { "question": "Lille est un pôle très compétitif. Comment pouvez-vous nous aider ?", "answer": "Notre approche data-driven et nos techniques de growth hacking nous permettent d'identifier et d'exploiter des opportunités que vos concurrents n'ont pas encore vues, vous donnant un avantage décisif." }
+    ],
+    "cta": {
+      "title": "Votre croissance a rendez-vous à Lille.",
+      "description": "Dans une métropole aussi dynamique, ne laissez pas votre potentiel digital inexploité. Parlons-en.",
+      "buttonText": "Accélérer ma croissance"
+    }
+  }
+]

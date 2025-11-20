@@ -1,0 +1,43 @@
+
+[
+  {
+    "client": "E-commerce Premium",
+    "industry": "Mode & Luxe",
+    "challenge": "Augmenter le taux de conversion et le panier moyen d'un site Shopify.",
+    "solution": "Refonte du tunnel de vente, mise en place d'upsells intelligents et d'une stratégie de relance par email automatisée.",
+    "results": "+40% de taux de conversion, +25% de panier moyen.",
+    "studio": "Skriib"
+  },
+  {
+    "client": "Cabinet de Conseil B2B",
+    "industry": "Services aux entreprises",
+    "challenge": "Générer des leads qualifiés de manière prévisible.",
+    "solution": "Création d'un livre blanc premium, d'une landing page optimisée et d'une campagne de pub LinkedIn ciblée.",
+    "results": "150+ leads qualifiés en 3 mois, coût par lead divisé par 2.",
+    "studio": "Hacking"
+  },
+  {
+    "client": "Artisan Local",
+    "industry": "Bâtiment",
+    "challenge": "Dominer la visibilité locale face à la concurrence.",
+    "solution": "Optimisation complète du SEO local (Google Business Profile, citations, contenu géolocalisé) et campagne Google Ads locale.",
+    "results": "Top 3 sur les mots-clés stratégiques, +200% d'appels entrants via Google.",
+    "studio": "Siion"
+  },
+  {
+    "client": "Startup SaaS",
+    "industry": "Technologie",
+    "challenge": "Booster la notoriété et l'engagement sur les réseaux sociaux.",
+    "solution": "Lancement d'une stratégie de contenu vidéo courte (Reels/TikToks) avec un mix de formats éducatifs et divertissants.",
+    "results": "+500% de portée en 6 mois, taux d'engagement de 8%.",
+    "studio": "Cliip"
+  },
+  {
+    "client": "Fintech Innovante",
+    "industry": "Finance",
+    "challenge": "Construire une image de marque forte et une stratégie de contenu expert pour rassurer les investisseurs et attirer les premiers utilisateurs.",
+    "solution": "Développement d'une plateforme de contenu (blog, webinaires), stratégie de positionnement en tant que leader d'opinion, et relations presse digitales.",
+    "results": "Publication dans 3 médias financiers majeurs, acquisition des 1000 premiers utilisateurs.",
+    "studio": "Siion"
+  }
+]
