@@ -7,6 +7,7 @@ import SEO from '@/components/SEO';
 import GrainEffect from '@/components/GrainEffect';
 
 const Home = () => {
+  console.log('BUILD LOCAL', Date.now());
   const studios = [
     {
       name: 'SkriiB',
@@ -58,6 +59,9 @@ const Home = () => {
     ]
   };
 
+  const heroVideoSrc =
+    'https://ik.imagekit.io/bupjuxqi6/u9276462317_white_glowing_head_blue_body_with_black_backgroun_10214f12-da22-4ece-bc52-23c3a7bfb331_0.mp4';
+
   return (
     <>
       <SEO
@@ -66,63 +70,95 @@ const Home = () => {
         canonical="/"
         schema={schema}
       />
-      
+
       <div className="relative min-h-screen">
         <GrainEffect />
-        
-        <section className="relative pt-32 pb-20 px-4 overflow-hidden">
-          <div className="container mx-auto max-w-6xl">
+
+        {/* HERO */}
+        <section className="relative min-h-[90vh] pt-32 pb-24 px-4 overflow-hidden">
+          <div className="absolute inset-0">
+            <video
+              src={heroVideoSrc}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-slate-950/80 mix-blend-multiply" />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-slate-950/60 to-black/90" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(248,113,113,0.15),_transparent_45%)]" />
+          </div>
+
+          <div className="container mx-auto max-w-5xl relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-center space-y-8"
+              className="space-y-10 text-center md:text-left"
             >
               <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="inline-block"
+                className="inline-flex items-center gap-3 px-5 py-3 bg-black/30 backdrop-blur border border-orange-500/30 rounded-full text-orange-300 text-sm font-medium"
               >
-                <span className="px-4 py-2 bg-orange-500/10 border border-orange-500/20 rounded-full text-orange-500 text-sm font-medium">
-                  Studio Growth & IA
-                </span>
+                <Sparkles className="w-4 h-4" />
+                Studio Growth & IA · Luxembourg & Grand Est
               </motion.div>
 
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
-                <span className="bg-gradient-to-r from-white via-orange-100 to-orange-500 bg-clip-text text-transparent">
-                  ONORA
-                </span>
-                <br />
-                <span className="text-3xl md:text-5xl lg:text-6xl text-gray-300">
-                  studio Growth & IA pour PME
-                </span>
-              </h1>
+              <div className="space-y-6">
+                <h1 className="text-5xl md:text-7xl font-bold leading-tight bg-red-600">
+                  TEST LOCAL UNIQUEMENT
+                </h1>
 
-              <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-                On code l'ADN de ta marque dans ton site, tes contenus et tes automatisations.
-              </p>
+                <p className="text-xl md:text-2xl text-gray-200 max-w-3xl leading-relaxed mx-auto md:mx-0">
+                  On code l'ADN de ta marque dans ton site, tes contenus et tes automatisations avec des
+                  studios spécialisés qui livrent des assets prêts à scaler.
+                </p>
+              </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
+              <div className="flex flex-col sm:flex-row gap-4 md:justify-start justify-center items-center pt-2">
                 <Link to="/studios">
-                  <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white text-lg px-8 py-6 group">
+                  <Button
+                    size="lg"
+                    className="bg-orange-500 hover:bg-orange-600 text-white text-lg px-8 py-6 group"
+                  >
                     Découvrir les studios ONORA
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
                 <Link to="/contact">
-                  <Button size="lg" variant="outline" className="border-orange-500 text-orange-500 hover:bg-orange-500/10 text-lg px-8 py-6">
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="border-orange-300 text-orange-200 hover:bg-orange-500/20 text-lg px-8 py-6"
+                  >
                     Parler de ton projet
                   </Button>
                 </Link>
               </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-left">
+                {[
+                  { label: 'Studios intégrés', value: '+4 expertises' },
+                  { label: 'Projets livrés', value: '120+' },
+                  { label: 'Zone d’action', value: 'Luxembourg · Grand Est' }
+                ].map((item) => (
+                  <div
+                    key={item.label}
+                    className="bg-black/30 border border-white/10 rounded-2xl p-4 backdrop-blur"
+                  >
+                    <p className="text-sm uppercase tracking-wide text-gray-400">{item.label}</p>
+                    <p className="text-2xl font-semibold text-white">{item.value}</p>
+                  </div>
+                ))}
+              </div>
             </motion.div>
           </div>
-
-          <div className="absolute top-1/4 left-10 w-72 h-72 bg-orange-500/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-orange-500/5 rounded-full blur-3xl"></div>
         </section>
 
+        {/* SECTION STUDIOS */}
         <section className="py-20 px-4">
           <div className="container mx-auto max-w-6xl">
             <motion.div
@@ -149,18 +185,17 @@ const Home = () => {
                 >
                   <Link to={studio.href}>
                     <div className="group relative bg-slate-900/50 backdrop-blur-sm border border-orange-500/10 rounded-2xl p-8 hover:border-orange-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 overflow-hidden">
-                      <div className={`absolute inset-0 bg-gradient-to-br ${studio.color} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}></div>
-                      
+                      <div
+                        className={`absolute inset-0 bg-gradient-to-br ${studio.color} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
+                      />
                       <div className="relative z-10">
                         <div className="flex items-start justify-between mb-4">
                           <studio.icon className="w-12 h-12 text-orange-500" />
                           <ArrowRight className="w-6 h-6 text-gray-600 group-hover:text-orange-500 group-hover:translate-x-1 transition-all" />
                         </div>
-                        
                         <h3 className="text-2xl font-bold mb-3 group-hover:text-orange-500 transition-colors">
                           {studio.name}
                         </h3>
-                        
                         <p className="text-gray-400 leading-relaxed">
                           {studio.description}
                         </p>
@@ -173,6 +208,7 @@ const Home = () => {
           </div>
         </section>
 
+        {/* SECTION CTA FINALE */}
         <section className="py-20 px-4 bg-slate-900/30">
           <div className="container mx-auto max-w-4xl text-center">
             <motion.div
@@ -188,7 +224,10 @@ const Home = () => {
                 Discutons de ton projet et trouvons ensemble les solutions adaptées à tes besoins
               </p>
               <Link to="/contact">
-                <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white text-lg px-8 py-6">
+                <Button
+                  size="lg"
+                  className="bg-orange-500 hover:bg-orange-600 text-white text-lg px-8 py-6"
+                >
                   Démarrer un projet
                 </Button>
               </Link>
